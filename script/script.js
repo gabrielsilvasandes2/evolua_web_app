@@ -1,12 +1,10 @@
 const avatar = document.getElementById("user_avatar");
 const inputFoto = document.getElementById("fotoPerfil");
 
-// clicar no avatar abre o input file
 avatar.addEventListener("click", () => {
     inputFoto.click();
 });
 
-// trocar a imagem automaticamente
 inputFoto.addEventListener("change", function () {
     const arquivo = this.files[0];
 

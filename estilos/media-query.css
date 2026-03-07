@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 992px) { /* CONFIGURAÇÃO PARA TABLET */
+@media screen and (min-width: 768px) and (max-width: 992px) {
     body {
         background-image: linear-gradient(to top, var(--fundo-principal), var(--acao-hover));
     }
@@ -22,7 +22,7 @@
     }
 }
 
-@media screen and (min-width: 992px) { /* CONFIGURAÇÕES PARA DESKTOP */
+@media screen and (min-width: 992px) {
     body {
         background-image: linear-gradient(to top, var(--fundo-principal), var(--acao-hover));
     }

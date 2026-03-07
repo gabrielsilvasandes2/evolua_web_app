@@ -26,7 +26,6 @@
                     e poder fazer as configurações no seu ambiente.
                 </p>
 
-                <!-- REMOVIDO action e method -->
                 <form id="cadastroForm" autocomplete="on">
 
                     <div class="campo">
@@ -60,17 +59,12 @@
         </section>
     </main>
 
-    <!-- Script para impedir POST e redirecionar -->
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             const form = document.getElementById("cadastroForm");
 
             form.addEventListener("submit", (e) => {
-                e.preventDefault(); // impede envio POST
-
-                // Aqui você pode futuramente validar dados
-
-                // Redireciona para dashboard
+                e.preventDefault();
                 window.location.href = "dashboard.html";
             });
         });

@@ -26,7 +26,6 @@
                     e poder fazer as configurações no seu ambiente.
                 </p>
 
-                <!-- Removido action e method -->
                 <form id="loginForm" autocomplete="on">
 
                     <div class="campo">
@@ -55,7 +54,6 @@
 
                     <input type="submit" value="Entrar">
 
-                    <!-- Importante: tipo button para não enviar form -->
                     <button type="button" class="botao">
                         Esqueci a Senha <i class="bi bi-envelope-fill"></i>
                     </button>
@@ -71,10 +69,7 @@
             const form = document.getElementById("loginForm");
 
             form.addEventListener("submit", (e) => {
-                e.preventDefault(); // impede POST
-
-                // Aqui você pode validar futuramente
-
+                e.preventDefault();
                 window.location.href = "dashboard.html";
             });
         });
